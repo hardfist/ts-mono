@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@speedy/lib": "1.0.0",
+    "@speedy/shared": "1.0.0"
+  }
 }
