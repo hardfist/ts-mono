@@ -1,0 +1,13 @@
+{
+  "name": "@speedy/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

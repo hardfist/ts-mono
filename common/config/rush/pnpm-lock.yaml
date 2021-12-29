@@ -1,0 +1,31 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/cli': file:./projects/cli.tgz
+  '@rush-temp/lib': file:./projects/lib.tgz
+  '@rush-temp/shared': file:./projects/shared.tgz
+
+dependencies:
+  '@rush-temp/cli': file:projects/cli.tgz
+  '@rush-temp/lib': file:projects/lib.tgz
+  '@rush-temp/shared': file:projects/shared.tgz
+
+packages:
+
+  file:projects/cli.tgz:
+    resolution: {integrity: sha512-MKOlzY/NQtlCGFK2wAmzNTPtXHXRif5hSOfWIX272dkxzYblCktrvohNJ1wwKfbrwwjSNsxmVoTMOjOJpJVN9A==, tarball: file:projects/cli.tgz}
+    name: '@rush-temp/cli'
+    version: 0.0.0
+    dev: false
+
+  file:projects/lib.tgz:
+    resolution: {integrity: sha512-IuR1YBoO6a4AWMrRgi+O6+PDxdzJyffNd8edkcWZ/N7kDAwu7kK4DjmvZIaACxSdevOkPWkt9XMVeV7QDNsI+A==, tarball: file:projects/lib.tgz}
+    name: '@rush-temp/lib'
+    version: 0.0.0
+    dev: false
+
+  file:projects/shared.tgz:
+    resolution: {integrity: sha512-C9sPy3mwfDeDnHzkF5E8z5t4xYDSbJngDi+ewt0YgpsBW2STx2h65PLn01x2S/asusReNb3UN42ty/GVYLYLyw==, tarball: file:projects/shared.tgz}
+    name: '@rush-temp/shared'
+    version: 0.0.0
+    dev: false
