@@ -400,6 +400,10 @@
     {
       "packageName": "@speedy/shared",
       "projectFolder": "packages/shared"
+    },
+    {
+      "packageName": "btsm",
+      "projectFolder": "packages/btsm"
     }
     // {
     //   /**

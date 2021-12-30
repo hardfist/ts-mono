@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2018",
+    "esModuleInterop": true,
     "lib": ["es2018", "dom"],
     "moduleResolution": "node",
     "composite": true,

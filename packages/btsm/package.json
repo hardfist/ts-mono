@@ -1,0 +1,17 @@
+{
+  "name": "btsm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.14.9",
+    "@types/node": "^17.0.5"
+  }
+}

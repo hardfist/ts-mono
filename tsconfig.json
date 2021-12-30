@@ -1,5 +1,16 @@
 {
   "references": [
-    
+    {
+      "path": "./packages/btsm"
+    },
+    {
+      "path": "./packages/cli"
+    },
+    {
+      "path": "./packages/lib"
+    },
+    {
+      "path": "./packages/shared"
+    }
   ]
 }

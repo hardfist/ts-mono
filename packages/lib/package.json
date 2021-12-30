@@ -2,6 +2,7 @@
   "name": "@speedy/lib",
   "version": "1.0.0",
   "description": "",
+  "source": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
