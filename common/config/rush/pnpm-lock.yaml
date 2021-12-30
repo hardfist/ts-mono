@@ -1,28 +1,20 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rush-temp/btsm': file:./projects/btsm.tgz
   '@rush-temp/cli': file:./projects/cli.tgz
   '@rush-temp/lib': file:./projects/lib.tgz
   '@rush-temp/shared': file:./projects/shared.tgz
-  '@types/node': ^17.0.5
-  btsm: 2.2.2
-  esbuild: 0.14.9
+  enl: 0.2.0
+  esbuild-node-loader: 0.6.3
 
 dependencies:
-  '@rush-temp/btsm': file:projects/btsm.tgz
   '@rush-temp/cli': file:projects/cli.tgz
   '@rush-temp/lib': file:projects/lib.tgz
   '@rush-temp/shared': file:projects/shared.tgz
-  '@types/node': 17.0.5
-  btsm: 2.2.2
-  esbuild: 0.14.9
+  enl: 0.2.0
+  esbuild-node-loader: 0.6.3
 
 packages:
-
-  /@types/node/17.0.5:
-    resolution: {integrity: sha512-w3mrvNXLeDYV1GKTZorGJQivK6XLCoGwpnyJFbJVK/aTBQUxOCaa/GlFAAN3OTDFcb7h5tiFG+YXCO2By+riZw==}
-    dev: false
 
   /btsm/2.2.2:
     resolution: {integrity: sha512-8kXvxk+NlRVjV/mvRfLZYTRdpCNf1FbVOkx23dyKG1KzgOXgWCTTnr5+i2RB7WncEaHQ5lZ9O8SIShCGDLjOow==}
@@ -30,6 +22,10 @@ packages:
     hasBin: true
     dependencies:
       esbuild: 0.14.9
+    dev: false
+
+  /enl/0.2.0:
+    resolution: {integrity: sha512-WPrGH/VRbv5y5uiX5Ut+hbzHzBTQYVmqpWap+K4DtZ/cQUogNL79vUtYmbx89np/0yp5KIXRg08NimfOO/VODg==}
     dev: false
 
   /esbuild-android-arm64/0.13.15:
@@ -342,23 +338,17 @@ packages:
       esbuild: 0.14.9
     dev: false
 
-  file:projects/btsm.tgz:
-    resolution: {integrity: sha512-T41hXE8CPNvSbanW+IEAMgDn1uZgwr6qrJosSXl30wo1j9vKmSdrv9tILVOqbuoELWa4YEniZU9Is7fBQZXQnA==, tarball: file:projects/btsm.tgz}
-    name: '@rush-temp/btsm'
-    version: 0.0.0
-    dependencies:
-      '@types/node': 17.0.5
-      esbuild: 0.14.9
-    dev: false
-
   file:projects/cli.tgz:
-    resolution: {integrity: sha512-KBsFwT2ne/0Qu1MEpZ8pBV9x4CICs0tt/XQqZ4f2nC6XfXDErDPJv7GrTX2XHGT7yvntjmCln+CtJQpxS066Rg==, tarball: file:projects/cli.tgz}
+    resolution: {integrity: sha512-m/h8h1ImVlP7vk0Yt1r1wBeBoROosHMJ7qY+FBRLqu3O5Te9aQSjrn9yhP2j3Ybd6qgy628yFxieSVqAhynU6g==, tarball: file:projects/cli.tgz}
     name: '@rush-temp/cli'
     version: 0.0.0
     dependencies:
       btsm: 2.2.2
+      enl: 0.2.0
       esbuild-node-loader: 0.6.3
       tsm: 2.2.1
+    transitivePeerDependencies:
+      - typescript
     dev: false
 
   file:projects/lib.tgz:

@@ -401,10 +401,10 @@
       "packageName": "@speedy/shared",
       "projectFolder": "packages/shared"
     },
-    {
-      "packageName": "btsm",
-      "projectFolder": "packages/btsm"
-    }
+    // {
+    //   "packageName": "btsm",
+    //   "projectFolder": "packages/btsm"
+    // }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)

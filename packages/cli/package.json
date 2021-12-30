@@ -6,14 +6,14 @@
   "scripts": {
     "build": "tsc -b",
     "clean": "tsc -b --clean",
-    "start": "node --loader=esbuild-node-loader src/index.ts"
+    "start": "node --loader=enl src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "esbuild-node-loader": "0.6.3",
-    "btsm": "1.0.0",
+    "enl": "0.2.0",
     "@speedy/lib": "1.0.0",
     "@speedy/shared": "1.0.0"
   }

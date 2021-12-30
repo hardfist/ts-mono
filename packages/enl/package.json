@@ -1,6 +1,6 @@
 {
-  "name": "btsm",
-  "version": "1.0.0",
+  "name": "enl",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
