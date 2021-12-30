@@ -1,20 +1,30 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@rush-temp/btsm': file:./projects/btsm.tgz
   '@rush-temp/cli': file:./projects/cli.tgz
   '@rush-temp/lib': file:./projects/lib.tgz
   '@rush-temp/shared': file:./projects/shared.tgz
+  '@types/node': 17.0.5
   enl: 0.2.0
+  esbuild: 0.14.9
   esbuild-node-loader: 0.6.3
 
 dependencies:
+  '@rush-temp/btsm': file:projects/btsm.tgz
   '@rush-temp/cli': file:projects/cli.tgz
   '@rush-temp/lib': file:projects/lib.tgz
   '@rush-temp/shared': file:projects/shared.tgz
+  '@types/node': 17.0.5
   enl: 0.2.0
+  esbuild: 0.14.9
   esbuild-node-loader: 0.6.3
 
 packages:
+
+  /@types/node/17.0.5:
+    resolution: {integrity: sha512-w3mrvNXLeDYV1GKTZorGJQivK6XLCoGwpnyJFbJVK/aTBQUxOCaa/GlFAAN3OTDFcb7h5tiFG+YXCO2By+riZw==}
+    dev: false
 
   /btsm/2.2.2:
     resolution: {integrity: sha512-8kXvxk+NlRVjV/mvRfLZYTRdpCNf1FbVOkx23dyKG1KzgOXgWCTTnr5+i2RB7WncEaHQ5lZ9O8SIShCGDLjOow==}
@@ -335,6 +345,15 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
+      esbuild: 0.14.9
+    dev: false
+
+  file:projects/btsm.tgz:
+    resolution: {integrity: sha512-EyxiYsoNLxtFFDqkeAmJTA0I9z70SeBRfXBRXoQXPgDV0y6WfuD0l8dkSTRfIC/N9HeP6r/ieqL2nqJTl03nlw==, tarball: file:projects/btsm.tgz}
+    name: '@rush-temp/btsm'
+    version: 0.0.0
+    dependencies:
+      '@types/node': 17.0.5
       esbuild: 0.14.9
     dev: false
 
