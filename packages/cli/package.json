@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -b",
     "clean": "tsc -b --clean",
-    "start": "node --loader=btsm src/index.ts"
+    "start": "node -r tsm --conditions=source src/index.ts"
   },
   "files": [
     "dist",
@@ -16,9 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esbuild-node-loader": "0.6.3",
-    "btsm": "1.0.0",
-    "enl": "0.2.0",
+    "tsm": "2.2.1",
     "@speedy/lib": "1.0.0",
     "@speedy/shared": "1.0.0"
   }

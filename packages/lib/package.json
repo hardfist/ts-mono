@@ -8,6 +8,11 @@
   "scripts": {
     "build": "tsc -b"
   },
+  "exports": {
+    "source": "./src/index.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
